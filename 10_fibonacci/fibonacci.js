@@ -4,7 +4,7 @@ const fibonacci = function(numb) {
         fiboArray.push(fiboArray[i-1]+fiboArray[i-2]);
     }
 
-    return fiboArray[numb]
+    return numb<0 ? "OOPS": fiboArray[numb];
 };
 
 // Do not edit below this line
