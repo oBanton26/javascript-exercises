@@ -1,5 +1,5 @@
 const palindromes = function (input) {
-    const punctuation = /[\.,?!]/g;
+    const punctuation = /[\.,?! ]/g;
     let myString = input.replace(punctuation, "");
     myString = myString.toLowerCase();
     const stringToCompare = myString.split("").reverse().join("");
